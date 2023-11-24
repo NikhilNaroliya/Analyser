@@ -91,7 +91,7 @@ function App () {
 
   return (
     <div className="App">
-      <h1>ANALYSER</h1>
+      <h1>My Todos</h1>
 
       <div className="todo-wrapper">
 
@@ -129,13 +129,13 @@ function App () {
             className={`secondaryBtn ${isCompletedScreen === false && 'active'}`}
             onClick={() => setIsCompletedScreen (false)}
           >
-            ADDED QUESTIONS
+            To Do
           </button>
           <button
             className={`secondaryBtn ${isCompletedScreen === true && 'active'}`}
             onClick={() => setIsCompletedScreen (true)}
           >
-            ANALYSED QUESTIONS
+            Completed
           </button>
         </div>
         <div className="todo-list">
